@@ -18,31 +18,6 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-/* Сброс отступов 3d */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Скрываем значок мобильного телефона 3d */
-#ar-prompt {
-    display: none;
-}
-
-/* Делаем 3D плеер на весь браузер */
-model-viewer {
-    height: 300%;
-    width: 300%;
-}
-.cake{
-    position: relative;
-    left: 950px;
-    top: -20px;
-    height: 1300px;
-    width: 1300px;
-    z-index: 1;
-}
 
 .slick-list
 {

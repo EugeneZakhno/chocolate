@@ -1,0 +1,18 @@
+/* Сброс отступов 3d */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Скрываем значок мобильного телефона 3d */
+#ar-prompt {
+    display: none;
+}
+
+/* Делаем 3D плеер на весь браузер */
+model-viewer {
+    height: 800px;
+    width:500px;
+}
+
