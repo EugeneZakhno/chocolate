@@ -17,10 +17,6 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!--slick slider stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
-
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
   <!-- slick slider -->
@@ -32,6 +28,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 
 </head>
 
@@ -102,16 +99,19 @@
                       </h1>
                       <a href="#">
                         <span>
-                          Read More
+                          learn more
                         </span>
                         <img src="images/white-arrow.png" alt="">
                       </a>
                     </div>
                   </div>
-                  <div class="col-md-4 ml-auto">
-                    <div class="img-box">
-                      <img src="images/slider-img.png" alt="">
-                    </div>
+                  <div class="cake">
+                      <model-viewer src="chocolate_cake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="54.99deg 54.72deg 4.95m" field-of-view="30deg">
+                        <div class="progress-bar hide" slot="progress-bar">
+                          <div class="update-bar"></div>
+                        </div>
+                      </model-viewer>
+
                   </div>
                 </div>
               </div>
@@ -135,10 +135,16 @@
                       </a>
                     </div>
                   </div>
-                  <div class="col-md-4 ml-auto">
-                    <div class="img-box">
-                      <img src="images/slider-img.png" alt="">
-                    </div>
+                  <div class="cake">
+                      <model-viewer src="chocolate_cake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="54.99deg 54.72deg 4.95m" field-of-view="30deg">
+                        <div class="progress-bar hide" slot="progress-bar">
+                          <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                          View in your space
+                        </button>
+                      </model-viewer>
+
                   </div>
                 </div>
               </div>
@@ -162,10 +168,14 @@
                       </a>
                     </div>
                   </div>
-                  <div class="col-md-4 ml-auto">
-                    <div class="img-box">
-                      <img src="images/slider-img.png" alt="">
-                    </div>
+                  <div class="cake">
+
+                      <model-viewer src="chocolate_cake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="54.99deg 54.72deg 4.95m" field-of-view="30deg">
+                        <div class="progress-bar hide" slot="progress-bar">
+                          <div class="update-bar"></div>
+                        </div>
+                      </model-viewer>
+
                   </div>
                 </div>
               </div>
